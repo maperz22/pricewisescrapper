@@ -7,7 +7,7 @@ import {EmailProductInfo} from "@/types";
 import {generateEmailBody, sendEmail} from "@/lib/nodemailer";
 import {NextResponse} from "next/server";
 
-export const maxDuration = 300;
+export const maxDuration = 9;
 export const dynamic = "force-dynamic";
 
 export async function GET() {
